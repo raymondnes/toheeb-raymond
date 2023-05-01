@@ -1,0 +1,22 @@
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#header-img {
+    margin-top: 2rem;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media (max-width: 500px) {
+    #header-img {
+        width: 100%;
+    }
+}
